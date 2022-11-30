@@ -11,7 +11,7 @@
 function setBackgroundColor(color) {
     // TODO: Get the element with the id "q1-container" and set its background color to the input color
     let background_color = document.getElementById("q1-container");
-    background_color.style.backgroundColor = color;
+    background_color.style.background = color;
 
 
 
