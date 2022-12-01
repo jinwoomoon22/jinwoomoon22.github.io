@@ -103,12 +103,12 @@ a{
     color: white;
 }
 
-.image-card, .image-card-color-overlay {
+.image, .overlay {
     width: 360px;
     height: 280px;
 }
 
-.image-card {
+.image {
     display: inline-block;
     float: left;
     overflow: hidden;
@@ -118,12 +118,12 @@ a{
 }
 
 
-.image-card img {
+.image img {
     max-height: 100%;
     width: 100%;
 }
 
-.image-card-color-overlay {
+.overlay {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -132,7 +132,7 @@ a{
 }
 
 
-.image-card-text {
+.image-text {
     position: absolute;
     bottom: 10px;
     left: 10px;
